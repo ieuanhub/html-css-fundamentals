@@ -27,6 +27,35 @@
         </p>
        
         <!-- This is a comment -->                  <!-- comments are used for yourself or other developers to leave notes, basically they're not displayed in the browser -->
-    
+        <!-- 'a' means anchor -->                   <!-- href means hypertext reference -->
+        <!-- target="" is used to specify where to open the linked document, this is an option that specifies where to display the linked URL. 
+         It is a name of, or keyword for, a browsing context: a tab, window, or <iframe>. 
+        
+        The following keywords have special meanings:
+        _self: Load the URL into the same browsing context as the current one. This is the default behavior.
+        _blank: Load the URL into a new browsing context. This is usually a tab, but users can configure browsers to use new windows instead.
+        _parent: Load the URL into the parent browsing context of the current one. If there is no parent, this behaves the same way as _self.
+        _top: Load the URL into the top-level browsing context (that is, the "highest" browsing context that is an ancestor of the current one, and has no parent). If there is no parent, this behaves the same way as _self. -->
+        
+        <!-- title is a tooltip that appears when the user hovers over the link, this is optional -->
+
+        <a href="https://www.google.com/"
+        target="_blank"
+        title="Goes to google">                                         
+        click me
+        </a>
+
+        <br>
+
+        <a href="lyrics.html">
+            song lyrics
+        </a>
+
+        <br>
+
+        <a href="mailto:test@fake.com">             <!-- "mailto:" is used to create a link that opens the user's default email client -->
+            email me
+        </a>
+
     </body>
 </html>

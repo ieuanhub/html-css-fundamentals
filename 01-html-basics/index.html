@@ -62,7 +62,8 @@
         <a href="mailto:test@fake.com">             <!-- "mailto:" is used to create a link that opens the user's default email client -->
             email me
         </a>
-
+        <br><hr><br>
+        
         <!-- img src is used to specify the URL of the image to display -->
         <!-- alt is used to provide alternative text for the image, this is useful for accessibility, a screen reader will read this text out loud -->
         <!-- hyperlinks can also be used to link to images -->
@@ -121,6 +122,8 @@
             </video>
         </a>
 
+        <br><hr><br>
+
         <!-- textformatting gives text special formatting -->
         <p>this is normal text</p>                  <!-- this is normal text -->
         <p>this is <b>bold</b> text</p>             <!-- the 'b' stands for bold -->
@@ -134,6 +137,27 @@
         <p>this is <tt>monospaced</tt> text</p>     <!-- the 'tt' stands for monospaced -->
         <p>this is <mark style="background-color:lightgreen">highlighted</mark> text</p> <!-- the 'mark' stands for highlighted, included is a 'style' attribute to set the color of the highlighted text -->
 
+        <br><hr><br>
+
+        <!-- GROUP TOGETHER HTML-->
+        <!-- <span> inline container to group elements for styling purposes -->
+        <!-- an inline container is used to group inline elements -->
+        <!-- <div> block container to group elements for styling purposes -->
+        <!-- span meaning: inline container, used to group inline elements -->
+        <!-- div meaning: division, used to group block-level elements -->
+
+            <h1><span style="background-color:tomato">this is a span title</span></h1>
+            <h1><div style="background-color:lightblue">this is a div title</div></h1>
+
+            <p><span style="background-color:tomato">this is a span sentence.</span></p>
+            <p><div style="background-color:lightblue">this is a div sentence.</div></p>
+
+            <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. <span style="background-color:tomato">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span></p>
+            <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. <div style="background-color:lightblue">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div></p>
+
+        <!-- what we have done is create a block level element, for the second sentence within the paragraph, basically speaking we can use the span and div tags to group together HTML for styling purposes -->
+
+        <br><hr><br>
 
     </body>
 </html>

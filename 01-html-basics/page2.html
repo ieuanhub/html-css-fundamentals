@@ -4,8 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/05-css-basics/style.css">
+    
+    <!-- this is an example of internal CSS -->
+    <style>
+        body {
+            background-color: black;
+        }
+        h1 {
+            color: white;
+        }
+        p {
+            color: white;
+        }
+    </style>
+
 </head>
-<body>
-    <h1>This is page #2</h1>
+<body style="background-color:black">
+    <!-- CSS stands for Cascading Style Sheets -->
+    <!-- CSS is used to style and layout web pages -->
+    <!-- there are three different ways to apply CSS: -->
+    <!-- 1. Inline CSS (using the 'style' attribute) -->
+    <!-- 2. Internal CSS (using the 'style' element in the 'head' section) -->
+    <!-- 3. External CSS (using a separate '.css' file) -->
+
+    <h1 style="color:white">Welcome to page 2</h1>
+
+    <!-- this is an example of inline CSS -->
+    <p style="color:white">CSS stands for Cascading Style Sheets. CSS is used to style and layout web pages.</p>
+    <p style="color:white">there are three different ways to apply CSS:</p>
+    <p style="color:white">Inline CSS (using the 'style' attribute)</p>
+    <p style="color:white">Internal CSS (using the 'style' element in the 'head' section)</p>
+    <p style="color:white">External CSS (using a separate '.css' file)</p>
+
+    <br><hr><br>
+
+    <!-- this is an example of external CSS, this part of the 'id' is linked to the external stylesheet in 05-css-basics/style.css -->
+    <p id="p1" class="odd" >this is an example of external CSS, lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <p id="p2" class="even" >lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <p id="p3" class="odd" >lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <p id="p4" class="even" >lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+    <br><hr><br>
+
+    <!-- you can also use classes to apply styles -->
+    <p class="odd" >you can also use classes to apply styles, lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <p class="even" >lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <p class="odd" >lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <p class="even" >lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+    <br><hr><br>
+
+    <a href="/01-html-basics/page3.html">
+        <button>Go to page 3</button>
+    </a>
+
 </body>
 </html>

@@ -241,6 +241,26 @@
 
         <br><hr><br>
 
+        <!-- <button> tag is used to create a clickable button -->
+        <!-- <a> tag is used to create a hyperlink -->
+        <!-- onclick attribute is used to specify a JavaScript function to be executed when the button is clicked -->
+        <!-- style attribute is used to specify the visual style of the button -->
+        <!-- script attribute is used to specify a JavaScript function to be executed when the button is clicked -->
+
+        <a href="page2.html" target="_blank">
+            <button onclick="doSomething()" style="font-size: 25px; background-color: grey; color: white; border-radius: 25px;">click me</button>
+        </a>
+
+        <p id="greeting">hello</p>
+
+        <script>
+            function doSomething() {
+                document.getElementById("greeting").innerHTML = "goodbye";
+            }
+        </script>
+
+        <br><hr><br>
+
 
     </body>
 </html>

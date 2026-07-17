@@ -246,6 +246,7 @@
         <!-- onclick attribute is used to specify a JavaScript function to be executed when the button is clicked -->
         <!-- style attribute is used to specify the visual style of the button -->
         <!-- script attribute is used to specify a JavaScript function to be executed when the button is clicked -->
+        <!-- innerHTML property is used to change the content of an HTML element -->
 
         <a href="page2.html" target="_blank">
             <button onclick="doSomething()" style="font-size: 25px; background-color: grey; color: white; border-radius: 25px;">click me</button>
@@ -258,6 +259,64 @@
                 document.getElementById("greeting").innerHTML = "goodbye";
             }
         </script>
+
+        <br><hr><br>
+
+        <!-- <form> tag is used to create an HTML form -->
+        <!-- action attribute specifies where to submit the form data -->
+        <!-- method attribute specifies the HTTP method to use when submitting the form -->
+        <!-- POST is used for confidential data -->
+        <!-- GET is used for non-confidential data -->
+        <!-- enctype attribute is used to specify the encoding type for the form data -->
+
+        <form action="index.php" method="POST" enctype="multipart/form-data">
+
+            <label for="username">username:</label> <!--label for is used to associate the label with the input field -->
+            <input type="text" id="username" placeholder="SpongeBob" minlength="6" maxlength="15"><br> <!--input type="text" is used to create a single-line text input field -->
+
+            <label for="password">password:</label>
+            <input type="password" id="password" minlength="6" maxlength="15" required><br>
+
+            <label for="email">email:</label>
+            <input type="email" id="email" placeholder="SSquarepants@gmail.com" required><br>
+
+            <label for="phone">phone #:</label>
+            <input type="tel" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br> <!-- pattern attribute is used to specify a regular expression for the input field -->
+
+            <label for="bday">birthdate:</label>
+            <input type="date" id="bday"><br>
+
+            <label for="quantity">quantity:</label> <!-- this whole part is for the quantity input field which allows users to specify a number -->
+            <input type="number" id="quantity" min="1" max="10" value="1"><br>
+
+            <label for="title">title:</label>
+
+            <label for="Mr.">Mr.:</label>
+            <input type="radio" id="Mr." value="Mr." name="title"> <!-- radio button allows users to select one option only and not multiple -->
+            <label for="Ms.">Ms.:</label>
+            <input type="radio" id="Ms." value="Ms." name="title">
+            <label for="PhD.">PhD.:</label>
+            <input type="radio" id="PhD." value="PhD." name="title"><br> <!-- this allows users to select a title specifically because it's a radio button -->
+
+            <label for="payment">Payment</label> <!-- this is a dropdown menu that allows users to select one option from a list of options -->
+            <select id="payment" name="payment">
+                <option value="visa">Visa</option> <!-- the option part makes each item in the dropdown menu -->
+                <option value="mastercard">Mastercard</option> <!-- the option button is used to create each option in the dropdown menu -->
+                <option value="giftcard">Gift Card</option>
+            </select><br>
+
+            <label for="subscribe">Subscribe</label>
+            <input type="checkbox" id="subscribe"><br> <!-- checkbox allows users to select one or more options, in this case there is only one option -->
+
+            <label for="comment">Comment:</label> <!-- comment field for users to provide additional information -->
+            <textarea id="comment" rows="3" cols="25"></textarea><br> <!-- the textarea element allows users to enter multiple lines of text -->
+
+            <label for="file">file:</label>
+            <input type="file" id="file" accept="image/png, image/jpeg"><br> <!-- the file input field allows users to upload files, the accept attribute specifies the types of files that can be uploaded -->
+
+            <input type="reset">
+            <input type="submit">
+        </form>
 
         <br><hr><br>
 

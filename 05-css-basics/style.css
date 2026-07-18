@@ -22,3 +22,20 @@ h1 {
 .even{
     color: blue;
 }
+
+/* below is the css for stage 15. colors */
+/* with colors we can use names, rgb values, hexadecimal values, hsl values. */
+
+#p5 {
+    color:tomato;
+}
+#p6 {
+    color:rgb(102, 222, 255)
+}
+#p7 {
+    color:#59ff5f;
+}
+#p8 {
+    color: hsl(282, 100%, 64%);
+}
+/* in conclusion we can use any of the above methods to change the color of text. */

@@ -1,8 +1,14 @@
+@font-face {
+    src: url(/05-css-basics/googlefonts/OpenSans-VariableFont_wdth\,wght.ttf);
+    font-family: "OpenSans";
+}
+
 body {
     background-color: black;
 }
 h1 {
     color: white;
+    font-family: verdana, arial; /* serifs are the little characters after the letters. For some reason if we cant display verdana we can add a fallback font, that's why you may see 2 or 3 fonts in the code. */
 }
 #p1 {
     color: red;
@@ -28,6 +34,7 @@ h1 {
 
 #p5 {
     color:tomato;
+    font-family: "OpenSans";
 }
 #p6 {
     color:rgb(102, 222, 255)
@@ -39,3 +46,14 @@ h1 {
     color: hsl(282, 100%, 64%);
 }
 /* in conclusion we can use any of the above methods to change the color of text. */
+
+/* below is stage 16. fonts. */
+
+#p9 {
+    color: white;
+    font-family: "lucida console", "courier new";
+    font-size: 1em; /* to change for font size there is a font size property. The value can be in px, em, rem, % etc. */
+    font-weight: bold; /* to change the weight of the font we can use font-weight property. The value can be normal, bold, bolder, lighter or a number between 100 and 900. */
+    font-style: normal; /* to change the style of the font we can use font-style property. The value can be normal, italic or oblique. */
+}
+

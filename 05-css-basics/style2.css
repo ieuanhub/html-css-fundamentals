@@ -1,5 +1,7 @@
 body{
     margin: 0;  /* margin is the space outside of an element */
+    border: 3px solid;
+    display: flow-root; /* the flow-root value creates a new block formatting context, which allows for better control of layout and positioning of elements automatically, eg, it kept the whitedog.jpg within the border */
 }
 h1{
     text-shadow: 3px 3px 5px red, -3px -3px 5px blue ; 
@@ -19,11 +21,22 @@ h1{
     font-size: 5em;
     width: 250px;
     height: 250px;
-    margin:auto;
+    margin:auto; 
+    /* margins can be used to center elements, they are the space outside of an element */
+    /* the auto value will automatically adjust the margins to center the element */
+    /* the purpose of margins is to create space between elements which allows for better layout and design */
 }
 #box2{
     background-color: rgb(173, 1, 1);
 }
 #box3{
     background-color: rgb(0, 73, 209);
+}
+#img1{
+    float: left;
+    margin-right: 10px;
+}
+#img2{
+    float:right;
+    margin-left: 10px;
 }

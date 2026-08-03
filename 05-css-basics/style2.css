@@ -1,0 +1,13 @@
+h1{
+    text-shadow: 3px 3px 5px red, -3px -3px 5px blue ; 
+    /* this is an example of shadows with multiple colors */
+    /* the first px value is the horizontal shadow, the second is the vertical shadow, and the third is the blur radius */
+}
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(212, 211, 211);
+    box-shadow: 3px 3px 5px;
+    /* this is an example of a box shadow */
+    /* you can also add shadows to boxes using the box-shadow property */
+}

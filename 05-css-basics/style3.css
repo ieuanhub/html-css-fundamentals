@@ -16,3 +16,44 @@ body{
 #container p{
     background-color: yellow;
 }
+a:link{
+    /* the a:link selector is used to select the a element when it is not being hovered over, clicked on, or visited */
+   color: rgb(101, 200, 239); 
+}
+a:hover{
+    /* the a:hover selector is used to select the a element when it is being hovered over */
+    color: rgb(195, 223, 234); 
+    font-size: 1.1em;
+}
+a:active{
+    /* the a:active selector is used to select the a element when it is being clicked on */
+    font-size: 1.1em;
+    color: rgb(194, 226, 13);
+}
+a:visited{
+    /* the a:visited selector is used to select the a element when it has been visited, so if you have visited the site, the color will be grey */
+    color: grey;
+}
+li:hover{
+    /* the li:hover selector is used to select the li element when it is being hovered over */
+    background-color: yellow;
+}
+li:not(:hover){
+    /* the li:not(:hover) selector is used to select all li elements that are not being hovered over */
+    background-color: grey;
+}
+li:nth-child(3n+1){
+    /* the li:nth-child(3n+1) selector is used to select every 3rd li element starting from the first one, there are many other ways to choose, you can select, odd, even, etc. */
+    background-color: rgb(255, 242, 161);
+}
+#greeting p{
+    /* the #greeting p selector is used to select the p element inside the #greeting element */
+    background-color: lightblue;
+    padding: 10px;
+    display: none;
+}
+#greeting:hover p{
+    /* the #greeting:hover p selector is used to select the p element inside the #greeting element when it is hovered over */
+    display: block;
+    /* display is used to show or hide an element, block means it will be shown */
+}

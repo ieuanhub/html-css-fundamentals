@@ -86,3 +86,19 @@ span{
     background-color:aqua;
     height: 100vh;
 }
+#box4{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: sticky;
+    top: 0px;
+    /* position = relative, the element is positioned relative to its normal position. */
+}
+#box5{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: static;
+    top: 50px;
+    left: 50px;
+}

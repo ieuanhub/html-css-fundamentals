@@ -66,3 +66,23 @@ span{
     height: 100px;
     display: block;
 }
+.thebox{
+    background-color:white;
+    border: 2px solid;
+    padding: 25px;
+    /* padding is the space inside of an element */
+    box-sizing: border-box;
+    /* box-sizing = border-box, the width and height of the element includes the padding and border, but not the margin. */
+    height: auto;
+    width: 50%;
+    float: left;
+    text-align: center;
+    
+    min-width: 50%;
+    /* max-width = sets the maximum width of an element, and the element will not grow beyond that width. */
+    /* min-width = sets the minimum width of an element, and the element will not shrink below that width. */
+}
+.container{
+    background-color:aqua;
+    height: 100vh;
+}

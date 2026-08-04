@@ -21,7 +21,7 @@ h1{
     font-size: 5em;
     width: 250px;
     height: 250px;
-    margin:auto; 
+    margin: auto;
     /* margins can be used to center elements, they are the space outside of an element */
     /* the auto value will automatically adjust the margins to center the element */
     /* the purpose of margins is to create space between elements which allows for better layout and design */
@@ -39,4 +39,13 @@ h1{
 #img2{
     float:right;
     margin-left: 10px;
+}
+div{
+    border: 2px solid;
+    height: 75px;
+    overflow: scroll; 
+    /* visible = if any inner elements will flow allow it to do so */ 
+    /* hidden = with hidden, content that overflows outside the box will be hidden. */
+    /* clip = similar to hidden, its used in tandem with the overflow margin property, using this we can choose how much of the content we want to show, and how much we want to hide */
+    /* scroll = with s
 }

@@ -1,0 +1,12 @@
+body{
+    background-image: url("/02-images/background-multicolour.png");
+    /* background-image is where the image is located */
+    background-repeat: no-repeat;
+    /* background-repeat is used to repeat the image, but we don't want it to repeat */
+    background-position: center;
+    /* background-position is used to position the image, eg, center, top, bottom, etc. */
+    background-attachment: fixed;
+    /* background-attachment is used to fix the image in place, so it doesn't move when scrolling */
+    background-size: cover;
+    /* background-size is used to size the image, cover means it will cover the entire background */
+}

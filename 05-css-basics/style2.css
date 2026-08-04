@@ -47,5 +47,22 @@ div{
     /* visible = if any inner elements will flow allow it to do so */ 
     /* hidden = with hidden, content that overflows outside the box will be hidden. */
     /* clip = similar to hidden, its used in tandem with the overflow margin property, using this we can choose how much of the content we want to show, and how much we want to hide */
-    /* scroll = with s
+    /* scroll = our box contains a scroll bar for large text, if the text is small, we will still have the scroll bar. */
+}
+#div2{
+    border: 0;
+    background-color:red;
+    width: 100px;
+    height: 100px;
+    display: block;
+    /* block = it will display the element as a block element, taking up the full width available and starting on a new line. */
+    /* inline = it will display the element as an inline element, taking up only as much width as necessary and not starting on a new line. */
+    /* inline-block = it will display the element as an inline element, but it will also allow you to set a width and height. */
+    /* none = it will not display the element at all, and it will not take up any space in the layout. */
+}
+span{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    display: block;
 }

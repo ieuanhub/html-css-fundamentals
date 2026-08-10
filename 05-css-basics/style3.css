@@ -57,3 +57,31 @@ li:nth-child(3n+1){
     display: block;
     /* display is used to show or hide an element, block means it will be shown */
 }
+/* pseudo-element examples */
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+p::first-line{
+    background-color: yellow;
+}
+p::selection{
+    color: white;
+    background-color: black;
+}
+#fruit li::before{
+    content: "✔️";
+}
+#apple::after{
+    content: "🍎";
+}
+#orange::after{
+    content: "🍊";
+}
+#banana::after{
+    content: "🍌";
+}
+#fruit li::marker{
+    color: green;
+    font-size: 1.5em;
+}

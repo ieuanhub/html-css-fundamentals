@@ -49,3 +49,34 @@
 .dropdown a:hover{
     background-color: rgb(220, 218, 218);
 }
+/* navigation bar css */
+body{
+    margin: 0px;
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1{
+    text-align: center;
+}
+.navbar ul{
+    list-style-type: none; /* used to remove the bullet points */
+    background-color: hsl(0, 2%, 72%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: hsl(0, 2%, 62%);
+}
+.navbar li{
+    float: left;
+}

@@ -1,0 +1,31 @@
+.icons{
+    text-align: center;
+}
+.icons a{
+    text-decoration: none; /* this removes the little underline hyperlink under the icons */
+    margin-right: 20px;
+}
+.fa-solid.fa-house.fa-5x{
+    color: hsl(0, 0%, 66%);
+}
+.fa-solid.fa-house.fa-5x:hover{
+    color: hsl(0, 0%, 76%);
+}
+.fa-brands.fa-twitter.fa-5x{
+    color: hsl(215, 23%, 68%);
+}
+.fa-brands.fa-twitter.fa-5x:hover{
+    color: hsl(215, 23%, 78%);
+}
+.fa-brands.fa-youtube.fa-5x{
+    color: hsl(0, 57%, 62%);
+}
+.fa-brands.fa-youtube.fa-5x:hover{
+    color: hsl(0, 57%, 72%);
+}
+.fa-brands.fa-tiktok.fa-5x{
+    color: hsl(0, 0%, 10%);
+}
+.fa-brands.fa-tiktok.fa-5x:hover{
+    color: hsl(0, 0%, 30%);
+}
